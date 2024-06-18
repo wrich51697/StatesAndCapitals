@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.StatesAndCapitalsTest" time="0.032" tests="7" errors="7" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals\target\test-classes;C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals\target\classes;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Brian Richmond\.jdks\openjdk-22.0.1-1\bin"/>
+    <property name="sun.java.command" value="C:\Users\BRIANR~1\AppData\Local\Temp\surefire9227572188586822902\surefirebooter4291912503205826789.jar C:\Users\Brian Richmond\AppData\Local\Temp\surefire9227572188586822902 2024-06-16T02-10-46_083-jvmRun1 surefire5477186655402376898tmp surefire_010634194226655865539tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals\target\test-classes;C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals\target\classes;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Brian Richmond\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Brian Richmond"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\Brian Richmond\.jdks\openjdk-22.0.1-1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\BRIANR~1\AppData\Local\Temp\surefire9227572188586822902\surefirebooter4291912503205826789.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="Brian Richmond"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Brian Richmond\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BRIANR~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.1"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\Users\Brian Richmond\IntelliJ_IDEA_Projects\StatesAndCapitals"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Brian Richmond\.jdks\openjdk-22.0.1-1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Brian Richmond\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Brian Richmond\AppData\Local\Programs\Python\Python312\;C:\Users\Brian Richmond\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Brian Richmond\AppData\Local\Programs\Python\Python311\;C:\Users\Brian Richmond\AppData\Local\Microsoft\WindowsApps;C:\Users\Brian Richmond\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Edu 2022.2.2\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.3\bin;C:\Users\Brian Richmond\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Brian Richmond\AppData\Local\GitHubDesktop\bin;C:\Users\Brian Richmond\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;C:\Users\Brian Richmond\AppData\Local\JetBrains\Toolbox\scripts;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testEmptyInput" classname="org.example.StatesAndCapitalsTest" time="0.018">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+Caused by: java.lang.NullPointerException: inStream parameter is null
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testWhitespaceInput" classname="org.example.StatesAndCapitalsTest" time="0">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testWhitespaceInput(StatesAndCapitalsTest.java:43)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testValidState" classname="org.example.StatesAndCapitalsTest" time="0.001">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testValidState(StatesAndCapitalsTest.java:16)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testCaseInsensitiveInput" classname="org.example.StatesAndCapitalsTest" time="0.001">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testCaseInsensitiveInput(StatesAndCapitalsTest.java:51)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testAllStates" classname="org.example.StatesAndCapitalsTest" time="0.001">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testAllStates(StatesAndCapitalsTest.java:33)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testInvalidState" classname="org.example.StatesAndCapitalsTest" time="0.001">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testInvalidState(StatesAndCapitalsTest.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+  <testcase name="testNullInput" classname="org.example.StatesAndCapitalsTest" time="0.001">
+    <error message="Could not initialize class org.example.StatesAndCapitals" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testNullInput(StatesAndCapitalsTest.java:67)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+</error>
+  </testcase>
+</testsuite>

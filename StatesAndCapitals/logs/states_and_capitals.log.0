@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-16T08:45:21.558826Z</date>
+  <millis>1718527521558</millis>
+  <nanos>826000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>Initializing states and capitals map</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.608828900Z</date>
+  <millis>1718527521608</millis>
+  <nanos>828900</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>States and capitals map initialized successfully</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.610826900Z</date>
+  <millis>1718527521610</millis>
+  <nanos>826900</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>WARNING</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Invalid input: state name is null or empty</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.623830100Z</date>
+  <millis>1718527521623</millis>
+  <nanos>830100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Alabama</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.624828700Z</date>
+  <millis>1718527521624</millis>
+  <nanos>828700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Found capital for state Alabama: Montgomery</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.627835400Z</date>
+  <millis>1718527521627</millis>
+  <nanos>835400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Alabama</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.628835300Z</date>
+  <millis>1718527521628</millis>
+  <nanos>835300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Found capital for state Alabama: Montgomery</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.629837900Z</date>
+  <millis>1718527521629</millis>
+  <nanos>837900</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Alaska</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.630834600Z</date>
+  <millis>1718527521630</millis>
+  <nanos>834600</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Found capital for state Alaska: Juneau</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.632836700Z</date>
+  <millis>1718527521632</millis>
+  <nanos>836700</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Alabama</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.633833800Z</date>
+  <millis>1718527521633</millis>
+  <nanos>833800</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Found capital for state Alabama: Montgomery</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.634835100Z</date>
+  <millis>1718527521634</millis>
+  <nanos>835100</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Alaska</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.635837900Z</date>
+  <millis>1718527521635</millis>
+  <nanos>837900</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Found capital for state Alaska: Juneau</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.638837700Z</date>
+  <millis>1718527521638</millis>
+  <nanos>837700</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>INFO</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Fetching capital for state: Invalidstate</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.639833300Z</date>
+  <millis>1718527521639</millis>
+  <nanos>833300</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>WARNING</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>No such state found: Invalidstate</message>
+</record>
+<record>
+  <date>2024-06-16T08:45:21.642353700Z</date>
+  <millis>1718527521642</millis>
+  <nanos>353700</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.StatesAndCapitals</logger>
+  <level>WARNING</level>
+  <class>org.example.StatesAndCapitals</class>
+  <method>getCapital</method>
+  <thread>1</thread>
+  <message>Invalid input: state name is null or empty</message>
+</record>
+</log>

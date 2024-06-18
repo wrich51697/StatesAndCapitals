@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: org.example.StatesAndCapitalsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in org.example.StatesAndCapitalsTest
+testEmptyInput  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+Caused by: java.lang.NullPointerException: inStream parameter is null
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testWhitespaceInput  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testWhitespaceInput(StatesAndCapitalsTest.java:43)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testValidState  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testValidState(StatesAndCapitalsTest.java:16)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testCaseInsensitiveInput  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testCaseInsensitiveInput(StatesAndCapitalsTest.java:51)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testAllStates  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testAllStates(StatesAndCapitalsTest.java:33)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testInvalidState  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testInvalidState(StatesAndCapitalsTest.java:25)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+
+testNullInput  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class org.example.StatesAndCapitals
+	at org.example.StatesAndCapitalsTest.testNullInput(StatesAndCapitalsTest.java:67)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException: inStream parameter is null [in thread "main"]
+	at org.example.StatesAndCapitalsTest.testEmptyInput(StatesAndCapitalsTest.java:59)
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="u"
+                 name="User_Manual"
+                 start-page="User_Manual.md">
+
+    <toc-element topic="User_Manual.md"/>
+</instance-profile>
